@@ -1,4 +1,4 @@
-# 🎬 Online Cinema API
+# 🎬 CinemaSpecto API
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue.svg?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green.svg?logo=fastapi&logoColor=white)
@@ -216,8 +216,8 @@ Make sure you have [Python 3.13+](https://www.python.org/) and [Poetry](https://
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/Psychox1k/Online_Cinema_Api.git](https://github.com/Psychox1k/Online_Cinema_Api.git)
-cd Online_Cinema_Api
+git clone [https://github.com/Psychox1k/CinemaSpecto.git](https://github.com/Psychox1k/CinemaSpecto.git)
+cd CinemaSpecto
 ```
 2. **Configure Environment Variables:**
 Create a .env file in the root directory and copy the configuration:
@@ -232,7 +232,7 @@ POSTGRES_DB=cinema_db
 REDIS_HOST=redis
 REDIS_PORT=6379
 # --- APP SETTINGS ---
-PROJECT_NAME="Online Cinema API"
+PROJECT_NAME="Cinema Specto API"
 
 # --- JWT SETTINGS ---
 SECRET_KEY_ACCESS=your_secret_key_access

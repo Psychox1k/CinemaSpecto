@@ -1,7 +1,7 @@
 [project]
-name = "online-cinema-api"
+name = "cinemaspecto-api"
 version = "0.1.0"
-description = "Online cinema api project that allows users to select, watch, and purchase access to movies and other video materials via the internet."
+description = "Cinema Specto API project that allows users to select, watch, and purchase access to movies and other video materials via the internet."
 authors = [
     {name = "Psychox1k",email = "success01001011@gmail.com"}
 ]

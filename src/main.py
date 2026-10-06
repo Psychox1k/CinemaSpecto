@@ -14,7 +14,7 @@ from routes import orders_router
 from routes import carts_router
 
 app = FastAPI(
-    title="Online Cinema API",
+    title="CinemaSpecto API",
     description=("REST API for managing movies, users, orders" " and shopping carts"),
     version="1.0.0",
     docs_url=None,
@@ -60,14 +60,14 @@ def read_root():
 @app.get("/docs", include_in_schema=False)
 async def get_swagger_documentation(username: str = Depends(get_current_username)):
     return get_swagger_ui_html(
-        openapi_url="/openapi.json", title="Online Cinema API - Swagger UI"
+        openapi_url="/openapi.json", title="CinemaSpecto API - Swagger UI"
     )
 
 
 @app.get("/openapi.json", include_in_schema=False)
 async def openapi(username: str = Depends(get_current_username)):
     return get_openapi(
-        title="Online Cinema API",
+        title="CinemaSpecto API",
         version="1.0.0",
         routes=app.routes,
     )
